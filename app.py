@@ -31,7 +31,7 @@ with col1:
     select_col = st.selectbox('Escoja una columna: ', df.columns.to_list())
 
 with col2:
-    radio_ver_rgtos = st.radio('Primeros registros a ver: ', [5, 10, 20, 50, 100, 500, 1000, 3000, 5784], horizontal = True)
+    radio_ver_rgtos = st.radio('Primeros registros a ver: ', [5, 10, 20, 30, 40, 48], horizontal = True)
 
 if st.button('Actualizar'):
     col3, col4 = st.columns([0.3, 0.5])
